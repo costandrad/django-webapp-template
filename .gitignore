@@ -1,0 +1,114 @@
+# ==========================================
+# Ambiente Virtual e Python
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Variáveis de Ambiente e Segredos
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# Django (Bancos Locais, Estáticos e Mídia)
+# ==========================================
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# Pasta gerada pelo comando collectstatic
+staticfiles/
+
+# Ignora uploads na pasta media, mas mantém a pasta no Git
+media/*
+!media/.gitkeep
+
+# Mantém a estrutura de pastas static no Git caso estejam vazias
+!static/.gitkeep
+!static/css/.gitkeep
+!static/js/.gitkeep
+!static/img/.gitkeep
+
+# Arquivos de tradução compilados
+*.mo
+*.pot
+
+# Logs da aplicação
+*.log
+logs/
+
+# ==========================================
+# Testes e Qualidade de Código
+# ==========================================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+nosetests.xml
+coverage.xml
+
+# ==========================================
+# IDEs e Editores de Texto
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Vim / Sublime
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# ==========================================
+# Sistema Operacional
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
